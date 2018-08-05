@@ -1,3 +1,14 @@
 #!/bin/bash
 
-docker run --rm -v $(pwd):/app -w /app php:cli php artisan "$@" --ansi
+tty=
+tty -s && tty=--tty
+docker run \
+    $tty \
+    --interactive \
+    --rm -v \
+    $(pwd):/app \
+    --user $(id -u):$(id -g) \
+    --volume /etc/passwd:/etc/passwd:ro \
+    --volume /etc/group:/etc/group:ro \
+    -w /app \
+    php:cli php artisan "$@" --ansi
