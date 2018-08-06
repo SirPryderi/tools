@@ -1,0 +1,10 @@
+#!/bin/bash
+
+tty=
+tty -s && tty=--tty
+docker exec \
+  $tty \
+  --interactive \
+  --user www-data \
+  "$1" vendor/bin/robo "${@:2}"
+
