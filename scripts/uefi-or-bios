@@ -1,0 +1,3 @@
+#!/bin/bash
+echo -n "Hey there: you're running: "
+[ -d /sys/firmware/efi ] && echo UEFI || echo BIOS
