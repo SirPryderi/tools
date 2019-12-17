@@ -1,3 +1,4 @@
+[![volkswagen status](https://auchenberg.github.io/volkswagen/volkswargen_ci.svg?v=1)](https://github.com/auchenberg/volkswagen)
 [![works badge](https://cdn.rawgit.com/pscadiz/works-on-my-machine/master/badge.svg)](https://github.com/pscadiz/works-on-my-machine)
 
 # SirPryderi/tools
