@@ -1,0 +1,3 @@
+#!/bin/sh
+
+sudo chown "${USER}:${USER}" "$1" -R
