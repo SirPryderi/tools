@@ -1,0 +1,7 @@
+#!/bin/bash
+
+echo -e "Enter your email: \c"
+
+read email
+
+ssh-keygen -t rsa -b 4096 -C "$email"
