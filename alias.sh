@@ -22,6 +22,7 @@ alias stutiti="shutdown -hP now"
 alias c="clear"
 alias n="nano"
 alias start="xdg-open"
+alias refresh="source ~/.zshrc"
 
 # # # # # # # #
 # Git
