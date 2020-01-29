@@ -7,6 +7,7 @@ alias tf="tail -f"
 # # # # # # # #
 # Docker
 alias dcmp="docker-compose"
+alias dcps="docker-compose ps"
 alias dcu="docker-compose up"
 alias dcd="docker-compose down"
 
