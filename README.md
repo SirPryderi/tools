@@ -7,11 +7,10 @@ A set of command line utilities and tools I use to make my life easier.
 # :package: Install
 
 ```bash
-pushd ~
-git clone git@github.com:SirPryderi/tools.git
-echo "source ~/tools/tools.sh" >> ~/.zshrc
-echo "source ~/tools/tools.sh" >> ~/.bashrc
-popd
+git clone git@github.com:SirPryderi/tools.git "$HOME/tools" && \
+echo "source $HOME/tools/tools.sh" >> "$HOME/.bashrc" && \
+source "$HOME/.bashrc" && \
+sirpryderi
 ```
 # :wine_glass: Usage
 
