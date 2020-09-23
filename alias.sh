@@ -24,7 +24,7 @@ alias stutiti="shutdown -hP now"
 alias c="clear"
 alias n="nano"
 alias start="xdg-open"
-alias refresh="source ~/.zshrc"
+alias refresh="source $HOME/.zshrc &> /dev/null || source $HOME/.bashrc &> /dev/null || echo \"Could not load either a .zshrc nor a .bashrc file.\""
 
 # # # # # # # #
 # Git
