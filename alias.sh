@@ -11,7 +11,7 @@ alias dcps="docker-compose ps"
 alias dcu="docker-compose up"
 alias dcd="docker-compose down"
 alias dce="docker-compose exec"
-alias dcru="docker-compose restart"
+alias dcru="docker-compose run"
 alias dcre="docker-compose restart"
 
 # # # # # # # #
