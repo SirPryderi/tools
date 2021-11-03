@@ -2,4 +2,6 @@
 
 port="${1:-8000}"
 
+echo "🔗 http://localhost:$port"
+
 python2 -m SimpleHTTPServer $port || python -m SimpleHTTPServer $port || python -m http.server $port || python3 -m http.server $port
