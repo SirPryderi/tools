@@ -1,0 +1,12 @@
+#!/bin/bash
+
+echo -e "Enter your name: \c"
+read name
+
+echo -e "Enter your email: \c"
+read email
+
+git config --global user.name "$name"
+git config --global user.email "$email"
+
+echo "Done!"
